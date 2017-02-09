@@ -23,7 +23,7 @@
     self.view.layer.contents = (id)image.CGImage;
     [self.view addSubview:self.starView];
     self.starView.currentValue = 2.3;   //赋初始值
-    self.starView.userInteractionEnabled = NO; //关闭用户交互 
+    self.starView.userInteractionEnabled = NO; //关闭用户交互 （只允许看不允许操作）
     [self.view addSubview:self.score];
 }
 - (UILabel *)score{
